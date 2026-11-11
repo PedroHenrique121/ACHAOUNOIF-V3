@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "AchouIF",
+    "slug": "AchouIF",
+    "version": "1.0.0",
+    "icon": "./assets/acheinoif-app-icon.png",
+    "android": {
+      "package": "br.edu.ifpe.acheinoif"
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita que o AchouNoIF acesse suas fotos para cadastrar itens.",
+          "cameraPermission": "Permita que o AchouNoIF use a câmera para fotografar itens.",
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
